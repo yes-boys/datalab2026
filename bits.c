@@ -19,7 +19,7 @@
  * Difficulty: 1
  */
 int bitAnd(int x, int y) {
-     return ~(~x|~y)
+     return ~(~x|~y);
 }
 
 /*
@@ -30,7 +30,7 @@ int bitAnd(int x, int y) {
  *   Difficulty: 1
  */
 int bitXor(int x, int y) {
-    return ~((~x)&(~y))&(~(x&y))
+    return ~((~x)&(~y))&(~(x&y));
 }
 
 /*
@@ -351,5 +351,4 @@ unsigned floatPower2(int x) {
     }
     exp = x + 127;
     return exp << 23;
-    return 2;
 }
